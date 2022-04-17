@@ -1,0 +1,24 @@
+.team {
+
+    &__container {
+        background-image: url(../images/team.png);
+        background-size: cover;
+        padding-bottom: 580px;
+    }
+
+    &__desc-big {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    &__desc {
+        margin: 0;
+        width: 488px;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #00094A;
+        opacity: 0.8;
+    }
+}

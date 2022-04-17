@@ -1,0 +1,75 @@
+.new {
+    padding-bottom: 100px;
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+
+    &__img {
+        margin-bottom: 25px;
+    }
+
+    &__img:hover {
+        opacity: 0.8;
+    }
+
+    &__img:active {
+        opacity: 0.4;
+    }
+
+    &__desc-data {
+        margin: 0;
+        margin-bottom: 10px;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        color: #B3B6C9;
+    }
+
+    &__desc-data::before {
+        content: "";
+        display: inline-block;
+        background-image: url(../images/calendar.png);
+        margin-right: 5px;
+        width: 14px;
+        height: 14px;
+    }
+
+    &__desc {
+        width: 340px;
+        margin: 0;
+        margin-bottom: 25px;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        line-height: 24px;
+        color: #00094A;
+    }
+
+    &__desc-readmore {
+        margin: 0;
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #06A39C;
+    }
+
+    &__desc-readmore::after {
+        content: "";
+        display: inline-block;
+        background-image: url(../images/Arrow.png);
+        background-repeat: no-repeat;
+        margin-left: 8px;
+        width: 25px;
+        height: 11px;
+    }
+}

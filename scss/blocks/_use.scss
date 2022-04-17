@@ -1,0 +1,92 @@
+.use {
+    padding-top: 125px;
+    padding-bottom: 133px;
+
+    &__desc {
+        margin: 0;
+        font-family: 'Montserrat';
+        font-weight: 600;
+        line-height: 20px;
+        color: #00094A;
+    }
+
+    &__desc-big {
+        width: 539px;
+        margin: 0;
+        margin-bottom: 50px;
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 61px;
+        color: #00094A;
+    }
+
+    &__desc-big--margin {
+        margin: 0;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__item + &__item {
+        margin-left: 60px;
+    }
+
+    &__link {
+        padding-bottom: 15px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+    }
+
+    &__link:hover {
+        color: #06A39C;
+    }
+
+    &__link:active {
+        border-bottom: 3px solid #06A39C;
+    }
+
+    &__span {
+        display: inline-block;
+        margin-top: 15px;
+        margin-bottom: 74px;
+        width: 1282px;
+        opacity: 0.2;
+        border: 1px solid #000000;
+    }
+
+    &__logo-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        margin: -70px;
+    }
+
+    &__logo-item  {
+        margin: 70px;
+    }
+
+    &__logo-link {
+        text-decoration: none;
+    }
+
+    &__logo-link:hover {
+        opacity: 0.8;
+    }
+
+    &__logo-link:active {
+        opacity: 0.4;
+    }
+
+}

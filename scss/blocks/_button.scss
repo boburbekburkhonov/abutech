@@ -1,1 +1,32 @@
 // bu yerda button bor
+
+.button {
+    padding: 14px 30px;
+    background: #00094A;
+    border-radius: 3px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    &:active {
+        opacity: 0.4;
+    }
+
+    &__hero {
+        content: "";
+        display: inline-block;
+        background-image: url(../images/video.png);
+        background-repeat: no-repeat;
+        background-position: right center;
+        padding-right: 50px;
+        border: none;
+    }
+}

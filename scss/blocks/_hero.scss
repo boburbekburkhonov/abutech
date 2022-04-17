@@ -1,1 +1,37 @@
 // bu yerda hero bor
+
+.hero {
+
+    padding-bottom: 60px;
+
+    &__container {
+        padding-top: 195px;
+        padding-bottom: 56px;
+        padding-left: 62px;
+        width: 1282px;
+        background-image: url(../images/hero.png);
+        background-size: cover;
+    }
+
+    &__heading {
+        margin: 0;
+        margin-bottom: 7px;
+        font-family: 'Montserrat';
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 43px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__desc {
+        width: 493px;
+        margin: 0;
+        margin-bottom: 15px;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+}
